@@ -2,6 +2,22 @@
  A Compiler for AArch64 Apple Silicon for a Subset of Python.
  Inspiration from -> https://github.com/tsoding/porth
 
+Everything is pure python and depends on the standard library.
+
+For compilation on your machine, you need Xcode installed. Open up a shell and type xcode-select --install and you're good to go.
+
+Usage
+
+python3 compiler.py python_test.txt 
+
+The executable will be named "output" by default.
+
+You can specify an executable name as the third argument
+
+python3 compiler.py python_test.txt executable_file
+
+
+python3 compiler.py
 Currently implemented commands 
  - Single Line Comments
  - """ Multiline Comments """
