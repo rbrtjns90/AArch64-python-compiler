@@ -20,3 +20,4 @@ End Goals
  - Turing Completion
  - Inline Assembly
  - Ability to utilize LibC
+ - Probably Force Static typing and declaration of allocated space needed for variables to avoid buffer overflows
