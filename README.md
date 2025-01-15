@@ -3,9 +3,10 @@
  Inspiration from -> https://github.com/tsoding/porth
 
 Currently implemented commands 
- - # Comments
+ - Single Line Comments
  - """ Multiline Comments """
- - var = input("What the Foo?")
+ - Variable Declaration var = "Foo" or 2
+ - User Input var = input("What the Foo?")
  - print("String") + print(1+2)
 
 Immediate Goals
