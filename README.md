@@ -1,6 +1,9 @@
 # AArch64 python compiler
  A Compiler for AArch64 Apple Silicon for a Subset of Python.
- Inspiration from -> https://github.com/tsoding/porth
+ Inspiration from -> 
+ 
+ https://github.com/tsoding/porth
+ https://thorstenball.com/books/
 
 Everything is pure python and depends on the standard library.
 
@@ -16,8 +19,6 @@ You can specify an executable name as the third argument
 
 python3 compiler.py python_test.txt executable_file
 
-
-python3 compiler.py
 Currently implemented commands 
  - Single Line Comments
  - """ Multiline Comments """
@@ -37,3 +38,5 @@ End Goals
  - Inline Assembly
  - Ability to utilize LibC
  - Probably Force Static typing and declaration of allocated space needed for variables to avoid buffer overflows
+
+This is a toy project as a proof of concept that Python can compile Python and not production ready in the slightest. This is mostly for smart allecks in Beginner Programming Groups that denigrate people who ask if Python can compile to an executable. 
