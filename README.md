@@ -1,5 +1,6 @@
 # AArch64 python compiler
- A Compiler for AArch64 Apple Silicon for a Subset of Python
+ A Compiler for AArch64 Apple Silicon for a Subset of Python.
+ Inspiration from -> https://github.com/tsoding/porth
 
 Currently implemented commands 
  - # Comments
@@ -17,4 +18,4 @@ Immediate Goals
 End Goals
  - Turing Completion
  - Inline Assembly
- - Using LibC
+ - Ability to utilize LibC
