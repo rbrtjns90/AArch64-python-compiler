@@ -597,8 +597,8 @@ def compile_and_link(source_code: str, output_name: str = "output") -> None:
         os.chmod(output_name, 0o755)
         
         # Clean up intermediate files
-        os.remove(f"{output_name}.o")
-        os.remove(asm_file)
+        #os.remove(f"{output_name}.o")
+        #os.remove(asm_file)
         
         print(f"Successfully compiled to '{output_name}'")
         
