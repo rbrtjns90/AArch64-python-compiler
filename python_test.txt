@@ -1,0 +1,13 @@
+"""
+This is a multiline comment
+It can span multiple lines
+"""
+
+# This is a single line comment
+name = input("What is your name? ")
+age = 25  # This is an integer variable
+message = "Hello, World!"  # This is a string variable
+
+print(name)  # Prints the input value
+print(age)   # Prints the number
+print(message)  # Prints the string
